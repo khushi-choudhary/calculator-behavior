@@ -1,21 +1,22 @@
+# Addition
 Scenario: Addition of two positive numbers
 Given : The Calulator is turned on
-When : I type in " first positive   number" and i press "plus" and I type in " second Positive number" and i press "equals"
+When : I type"first positive number" and "plus"and" second Positive number" and "equals"
 Then : I see the "added number" as the result 
   
 Scenario: Addition of two negative numbers
 Given : The Calulator is turned on
-When:  I type in " first negative number" and i press "plus" and I type in " second negative number" and i press "equals"
+When:  I type "first negative number"and "plus" and " second negative number" and "equals"
 Then : I see the "added number" as the result and sign of result number can we negative or positive 
  
  Scenario: Addition of fractions
  Given : The Calulator is turned on
- When:  I type in "fraction number" and i press "plus" and I type in "fraction number" and i press "equals"
+ When:  I type "fraction number" and "plus" and "fraction number" and "equals"
  Then : I see the "added number" as the result  and the result will be in fraction or decimals.
   
   Scenario: Addition of positive and negative number
   Given : The Calulator is turned on
-  When:  I type in "positive number" and i press "plus" and I type in "negative number" and i press "equals"
+  When:  I type "positive number" and "plus" and "negative number" and "equals"
   Then : I see the "added number" as the result and the sign of result number depend on the sign of biggest input number
 
   Scenario: Addition of decimals 
@@ -46,7 +47,7 @@ Then : I see the "added number" as the result and sign of result number can we n
   Scenario: Identify operation
   Given : The Calulator is turned on
   When: operand will entered 
-  Then : it will identify the operand
+  Then : it will able to identify the operand
   
   Scenario: Converse operation
   Given : The Calulator is turned on

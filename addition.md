@@ -6,7 +6,7 @@ When: I type"first positive number" and "plus"and "second Positive number" and "
 Then: I see the "added number" as the result
 
 Scenario: Addition of two negative numbers
-Given: The Calculator is turned on
+Given: The Calculator is on
 When:  I type "negative number"and "plus" and "negative number" and "equals"
 Then: I see the "added number" as the result sign can we negative or positive
 
@@ -40,7 +40,7 @@ Given: The Calculator is on
 When: I type "Large number" and "plus" and "large number" and "equal "
 Then: it will display "Number is too large" and out of range as message
 
-Scenario:6+* is provided as input
+Scenario:6+* is as input
 Given: The Calculator is on
 When: I type "first number" and "plus" and  "multiply" and "equal"
 Then: syntax error or we take second operand same as first and do the operation

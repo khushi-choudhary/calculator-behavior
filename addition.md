@@ -18,7 +18,7 @@ Then: I see the "added number in decimal or fraction form" as result
 Scenario: Addition of positive and negative number
 Given: The Calculator is turned on
 When:  I type "positive number" and "plus" and "negative number" and "equals"
-Then: I see the "added number and it's sign depened on sign of biggest number" as result
+Then: "added number and it's sign depened on sign of biggest number" as result
 
 Scenario: Addition of decimals
 Given: The Calculator is turned on

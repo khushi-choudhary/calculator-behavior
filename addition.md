@@ -13,12 +13,12 @@ Then: I see the "added number" as the result sign can we negative or positive
 Scenario: Addition of fractions
 Given: The Calculator is turned on
 When:  I type "fraction number" and "plus" and "fraction number" and "equals"
-Then: I see the "added number in decimal or fraction" as result
+Then: I see the "added number in decimal or fraction form" as result
 
 Scenario: Addition of positive and negative number
 Given: The Calculator is turned on
 When:  I type "positive number" and "plus" and "negative number" and "equals"
-Then: I see "added number and its sign depened on sign of biggest number" as result
+Then: I see the "added number and it's sign depened on sign of biggest number" as result
 
 Scenario: Addition of decimals
 Given: The Calculator is turned on
@@ -42,7 +42,7 @@ Then: it will display "Number is too large" and out of range as message
 
 Scenario:6+* is provided as input
 Given: The Calculator is turned on
-When:  i type "first no." and "plus" and  "mul" and "equal"
+When:  i type "first number" and "plus" and  "mul" and "equal"
 Then: syntax error or we take second operand same as first and do the operation
 
 Scenario: Identify operation

@@ -1,5 +1,4 @@
 
-# Addition
 Scenario: Addition of two positive numbers
 Given: The Calulator is turned on
 When: I type"first positive number" and "plus"and "second Positive number" and "equals"

@@ -4,7 +4,7 @@
 
 Scenario: Addition of two positive numbers
   
-  Given : The Calulator is turned on
+  Given : The Calulator is started
 
   When : I type in " first positive   number" and i press "plus" and I type in " second Positive number" and i press "equals"
   
